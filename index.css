@@ -3,5 +3,5 @@
 @source "./public/*.{html,js}";
 
 @plugin "daisyui" {
-  themes: light --default, dark --prefersdark, business;
+  themes: light --default, dark --prefersdark, sunset;
 }
