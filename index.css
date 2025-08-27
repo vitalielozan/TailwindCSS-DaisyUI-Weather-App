@@ -1,10 +1,7 @@
-@tailwind base;
-
-@tailwind components;
-
-@tailwind utilities;
-
 @import 'tailwindcss';
+
+@source "./public/*.{html,js}";
+
 @plugin "daisyui" {
-  themes: light --default, dark --prefersdark, sunset;
+  themes: light --default, dark --prefersdark, business;
 }

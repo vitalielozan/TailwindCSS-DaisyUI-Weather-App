@@ -1,6 +1,7 @@
 # 🌼 Weather App
 
-This is a modern web application built with **JavaScript**, **TailwindCSS**, and **DaisyUI**. It features a clean, responsive design and is easy to customize.
+This is a modern web application built with **JavaScript**, **TailwindCSS**, and **DaisyUI**.
+It features a clean, responsive design and is easy to customize.
 
 ## Features
 
