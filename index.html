@@ -11,7 +11,9 @@
     <div
       class="flex flex-col items-center justify-center min-h-screen p-6 gap-6"
     >
-      <h1 class="text-5xl py-5 font-bold drop-shadow-md">Simple Weather App</h1>
+      <h1 class="text-5xl py-5 font-bold drop-shadow-md">
+        How is the Weather Today?
+      </h1>
 
       <form
         id="weatherForm"
@@ -20,8 +22,8 @@
         <input
           id="cityInput"
           type="text"
-          placeholder="Enter City"
-          class="input input-bordered w-full rounded-xl px-4 py-2 backdrop-blur-sm shadow-inner font-medium"
+          placeholder="Enter a City"
+          class="input input-success input-lg"
         />
         <button id="btnForm" type="submit" class="btn btn-soft btn-success">
           Get Weather
@@ -30,7 +32,7 @@
 
       <div
         id="card"
-        class="card mt-8 hidden bg-gradient-to-b from-indigo-700 from-20% via-sky-700 via-50% to-emerald-700 to-90% rounded-lg shadow-2xl text-center w-full max-w-sm p-6"
+        class="card mt-8 hidden bg-base-100 rounded-lg shadow-2xl text-center w-full max-w-sm p-6"
       >
         <h2 id="cityDisplay" class="text-5xl font-semibold mb-4"></h2>
         <div class="space-y-6 text-lg">
@@ -43,7 +45,7 @@
       </div>
       <div
         id="errorDisplay"
-        class="mt-8 hidden rounded-lg shadow-2xl text-center w-full max-w-sm p-6"
+        class="mt-8 hidden bg-base-100 rounded-lg shadow-2xl text-center w-full max-w-sm p-6"
       >
         <h2 class="text-rose-500 text-3xl my-8 font-semibold">
           Please enter a city...
