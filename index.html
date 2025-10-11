@@ -23,7 +23,7 @@
           id="cityInput"
           type="text"
           placeholder="Enter a City"
-          class="input input-success input-lg"
+          class="input input-success input-lg bg-transparent"
         />
         <button id="btnForm" type="submit" class="btn btn-soft btn-success">
           Get Weather
@@ -32,10 +32,12 @@
 
       <div
         id="card"
-        class="card mt-8 hidden bg-base-100 rounded-lg shadow-2xl text-center w-full max-w-sm p-6"
+        class="card mt-8 hidden bg-base-100/60 rounded-lg shadow-2xl text-center w-full max-w-sm p-6"
       >
         <h2 id="cityDisplay" class="text-5xl font-semibold mb-4"></h2>
-        <div class="space-y-6 text-lg">
+        <div
+          class="space-y-6 flex flex-col items-center justify-center text-lg"
+        >
           <p id="tempDisplay" class="text-xl font-semibold mb-6"></p>
           <p id="feelsDisplay" class="text-xl font-semibold mb-6 t"></p>
           <p id="humidityDisplay" class="mb-6 text-xl font-semibold"></p>
